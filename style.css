@@ -1,7 +1,4 @@
 .title {
-    display: table-cell;
-    height: 200px;
-    vertical-align: middle;
-    width: 8000;
+    padding: 70px 0;
     text-align:center;
 }
