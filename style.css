@@ -1,12 +1,13 @@
+body {
+    background: #332259;
+    color: white;
+}
 .title {
     padding: 70px 0;
     text-align:center;
 }
-html {
-    background: #332259;
-    color: white;
-}
 blockquote {
     background: #5c468c;
     border-radius: 10px;
+    padding: 16px;
 }
