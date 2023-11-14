@@ -26,8 +26,6 @@ window.onload = function () {
     '<li class="nav-item">'+
     '<a class="nav-link active" aria-current="page" href="AboutBrennan.html">About Me</a>'+
     '</li></ul></div></div></nav>';
-}
-window.onload = function () {
     document.getElementById('foot').innerHTML=
     '<footer class="global-footer">'+
     '<div class="global-footer-content">'+
