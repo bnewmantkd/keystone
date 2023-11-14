@@ -27,3 +27,43 @@ window.onload = function () {
     '<a class="nav-link active" aria-current="page" href="AboutBrennan.html">About Me</a>'+
     '</li></ul></div></div></nav>';
 }
+window.onload = function () {
+    document.getElementById('foot').innerHTML=
+    '<footer class="global-footer">'+
+    '<div class="global-footer-content">'+
+    '<div>'+
+    '<h2 class="global-footer-header">'+
+    '<a href="index.html">'+
+    '<img class="global-footer-header-logo" src="https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60" loading="lazy" alt="Fandom logo">'+
+    '</a>'+
+    '</h2>'+
+    '<section class="global-footer-section">'+
+    '<h3 class="global-footer-section-header">Research</h3>'+
+    '<ul class="global-footer-links">'+
+    '<li>'+
+    '<a href="InitialResearchBrennan.html" class="global-footer-link">'+
+    'Initial Research</a>'+
+    '</li>'+
+    '<li>'+
+    '<a href="RootCausesBrennan.html" class="global-footer-link">'+
+    'Root Causes</a>'+
+    '</li>'+
+    '<li>'+
+    '<a href="CaseStudyBrennan.html" class="global-footer-link">'+
+    'Case Study</a>'+
+    '</li>'+
+    '</ul>'+
+    '</section>'+
+    '<section class="global-footer-section">'+
+    '<h3 class="global-footer-section-header">Company</h3>'+
+    '<ul class="global-footer-links">'+
+    '<li>'+
+    '<a href="AboutBrennan.html" class="global-footer-link">'+
+    'About Me</a>'+
+    '</li>'+
+    '</ul>'+
+    '</section>'+
+    '</div>'+
+    '</div>'+
+    '</footer>';
+}

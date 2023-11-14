@@ -2,14 +2,21 @@ body {
     background: #332259;
     color: white;
 }
-.title {
-    padding: 70px 0;
-    text-align:center;
-}
 blockquote {
     background: #5c468c;
     border-radius: 10px;
     padding: 16px;
+}
+a {
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none;
+    list-style-type: none;
+}
+.title {
+    padding: 70px 0;
+    text-align:center;
 }
 .navbar-custom {
     background-color: #241a45;
@@ -22,4 +29,62 @@ blockquote {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: rgba(255, 255, 255, 0.7);
+}
+.global-footer {
+    background-color: black;
+    font-size: 14px;
+    margin-top: 30px;
+    display: grid;
+    line-height: 29px;
+}
+.global-footer-content {
+    padding: 42px 18px 36px;
+    width: 100%;
+}
+.global-footer-header {
+    line-height: 0;
+    margin-bottom: 42px;
+    text-align: center;
+}
+.global-footer-header-logo {
+    height: 46px;
+    width: 183px;
+}
+.global-footer-header + .global-footer-section {
+    margin-top: 0;
+}
+.global-footer-section-header {
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 6px;
+}
+.global-footer-section-header {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.global-footer-link {
+    color: #c5091f;
+}
+.global-footer-link:hover {
+    color: white;
+}
+.global-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 1024px) {
+    .global-footer-content {
+        grid-column-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 0 auto;
+        max-width: 1024px;
+        padding: 70px 20px 40px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .global-footer-section + .global-footer-section {
+        margin-top: 30px;
+    }
 }
