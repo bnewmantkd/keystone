@@ -2,11 +2,6 @@ body {
     background: #332259;
     color: white;
 }
-blockquote {
-    background: #5c468c;
-    border-radius: 10px;
-    padding: 16px;
-}
 a {
     text-decoration: none;
 }
