@@ -13,6 +13,18 @@ ol, ul {
     padding: 70px 0;
     text-align:center;
 }
+.noteTitle {
+    font-size:22px;
+    color:white;
+}
+.noteTitle:hover {
+    text-shadow: 0px 0px 7px;
+}
+.p-4 .notes {
+    background-image: linear-gradient(rgba(113,95,179), rgba(0,0,0,0));
+    border-radius:70px;
+    width:90%;
+}
 .navbar-custom {
     background-color: #241a45;
 }
