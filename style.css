@@ -80,31 +80,32 @@ ol, ul {
 }
 .mainIdea {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(113,95,179));
-    height: 676px;
+    height: 540px;
 }
 .bg1 {
-    width: 720px;
-    height: 676px;
+    width: 640px;
+    height: 540px;
     overflow: hidden;
     background-image: url(https://images.fineartamerica.com/images-medium-large-5/star-trek-united-federation-logo-brand-a.jpg);
     background-position: center;
 }
 .bg1Text {
-    width: 720px;
-    height: 676px;
+    width: 640px;
+    height: 540px;
     display: -webkit-flex;
     display: flex;
     align-items: center;
     margin: auto;
+    text-align: center;
 }
 .bg1Text2 {
     margin: 7%;
-    font-size: 14px;
+    font-size: 11px;
 }
 .bg1Overlay {
     backdrop-filter: blur(8px);
-    width: 720px;
-    height: 676px;
+    width: 640px;
+    height: 540px;
 }
 .bq1 {
     padding-left: 3%;
