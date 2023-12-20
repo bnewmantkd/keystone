@@ -79,8 +79,23 @@ ol, ul {
     margin: 0;
     padding: 0;
 }
-.bg {
-    filter: blur(8px) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="a"><feComponentTransfer><feFuncA type="linear" slope="10"/></feComponentTransfer></filter>#a');
+.mainIdea {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(113,95,179));
+    height: 845px;
+}
+.bg1 {
+    width: 900px;
+    height: 845px;
+    overflow: hidden;
+    background-image: url(https://images.fineartamerica.com/images-medium-large-5/star-trek-united-federation-logo-brand-a.jpg);
+}
+.bg1Text {
+    width: 900px;
+    height: 845px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 @media only screen and (min-width: 1024px) {
     .global-footer-content {
