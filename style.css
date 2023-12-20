@@ -14,7 +14,6 @@ ol, ul {
     text-align:center;
 }
 .noteTitle {
-    font-size:22px;
     color:white;
 }
 .noteTitle:hover {
@@ -68,7 +67,7 @@ ol, ul {
     font-weight: 700;
     text-transform: uppercase;
 }
-.global-footer-link {
+.hlink {
     color: #c5091f;
 }
 .global-footer-link:hover {

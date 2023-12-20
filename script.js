@@ -39,15 +39,15 @@ window.onload = function () {
     '<h3 class="global-footer-section-header">Research</h3>'+
     '<ul class="global-footer-links">'+
     '<li>'+
-    '<a href="InitialResearchBrennan.html" class="global-footer-link">'+
+    '<a href="InitialResearchBrennan.html" class="hlink">'+
     'Initial Research</a>'+
     '</li>'+
     '<li>'+
-    '<a href="RootCausesBrennan.html" class="global-footer-link">'+
+    '<a href="RootCausesBrennan.html" class="hlink">'+
     'Root Causes</a>'+
     '</li>'+
     '<li>'+
-    '<a href="CaseStudyBrennan.html" class="global-footer-link">'+
+    '<a href="CaseStudyBrennan.html" class="hlink">'+
     'Case Study</a>'+
     '</li>'+
     '</ul>'+
@@ -56,7 +56,7 @@ window.onload = function () {
     '<h3 class="global-footer-section-header">Company</h3>'+
     '<ul class="global-footer-links">'+
     '<li>'+
-    '<a href="AboutBrennan.html" class="global-footer-link">'+
+    '<a href="AboutBrennan.html" class="hlink">'+
     'About Me</a>'+
     '</li>'+
     '</ul>'+
